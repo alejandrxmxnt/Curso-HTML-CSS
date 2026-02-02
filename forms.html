@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <!--apara escribir el formulario este se debe trabajar con la etiqueta form-->
+    <form>
+        <!--type es lo que va tipear el usario este tiene varias propiedades-->
+        <!--
+        Si agregamos el required es obligar al usuario a escribir es decir campo obligatorio
+
+        name - es un identificador de los inputs cuando le mandamos un campo al servidor que pasa algo va recibir estos datos va procesar entonces lo que hace es definir como se va llamar este campo nombre de la variable
+
+        placeholder - lo que hace es escribir un pequeño texto que desaparece cuando el usuario inicia al escribir
+
+        value - que mas adelante lo vemos con detalle es lo que va recibir el servidor si queremos acceder a lo que el usuario accedio eso seria el value que es valor - Si nosotros le enviar Adrian Alejandro el servidor lo guarda en el value y eso es lo que va recibir 
+        -->
+        <input type="text" title="Ingrese Nombre" required>
+        <input type="color">
+        <input type="submit" value="form">
+        <!--Los inputs mas frecuentes-->
+        <br>
+        <input type="text" name="userName" placeholder="Ingresa tu nombre"> <!--ESCRIBIR TEXTO-->
+        <input type="email" name="email" placeholder="ingresa tu correo"> <!--ESCRIBIR CORREO-->
+        <input type="password"> <!--ESCRIBIR CONTRASEÑA-->
+        <input type="checkbox"> <!--ACEPTAR TERMINOS Y CONDICIONES PUEDE TENER ESA FUNCION O MARCAR VARIAS OPCIONES-->
+        <input type="radio"> <!--SELECCIONAR UNA O OTRA OPCION-->
+        <input type="file"> <!--SELECCIONAR UN ARCHIVO-->
+        <input type="date"> <!--CAPTURAR FECHA-->
+        <input type="submit" value="form"> <!--ENVIA LOS DATOS-->
+
+
+    </form>
+</body>
+</html>
