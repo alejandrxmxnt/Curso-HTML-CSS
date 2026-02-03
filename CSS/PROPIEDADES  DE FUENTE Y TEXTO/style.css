@@ -1,0 +1,58 @@
+/*
+font-family te cambia la tipografia
+las tipografias pueden ser varias para que esto suceda puedes poner una separar luego con una coma , para que si la primera falla pase a la segunda y asi sucesivamente las que tengas
+
+font-size unidad de medida
+
+font-weight grosor de la letra
+
+text-align      para definir donde arranca la letra
+                left        texto a la izquierda
+                right       texto a la derecha
+                center      texto centrado
+                justify     texto justificado
+
+text-decoration que tiene muchos valores entre ellos los mas comunes:
+underline       subraya el texto
+overline        subraya la parte de arriba del texto
+line-through    tacha el texto
+
+line-height     espaciado entre texto
+
+letter-spacing      espacio entre letras
+
+text-transform     modificar texto todo mayuscula toodo minuscula depende:
+    uppercase       todo mayuscula
+    lowercase       todo minuscula
+    none            sin cambios
+    capitalize      la primera de cada palabra mayuscula
+*/
+p {
+    color: blue;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5;
+    letter-spacing: 10px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+span {
+    text-decoration: line-through;
+    color: brown;
+}
+/*
+eliminar subrayado
+*/
+.enlace-youtube{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
