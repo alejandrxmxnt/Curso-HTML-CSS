@@ -1,0 +1,21 @@
+/*
+Hay muchas formas de seleccionar
+la forma mas comun es por el nombre del elemento o tag
+
+1. Si pongo "p" esto aplica a todos los parrafos
+
+que propiedad queremos modificar y cual va ser el valor que vamos a darle a esa propiedad
+
+propiedad   ->      color:
+blue         ->      valor
+*/
+p {
+    color: blue;
+}
+
+/*
+SELECTORES 
+forma de seleccionar uno o varios elementos
+
+SELECTORES BASICOS
+*/
