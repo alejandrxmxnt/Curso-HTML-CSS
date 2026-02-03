@@ -1,0 +1,32 @@
+/*SELECCION POR ELEMENTO*/
+h1 {
+    color: red;
+    font-weight: bold;
+}
+li {
+    color: gray;
+}
+/*
+USO DE CLASES
+lo que hace es asignar un nombre muy puntual que se llama clase y es la forma de separar los elementos por clases
+
+para llamar a las clases escribimos el nombre de la clase y agregamos un punto por delante asi: 
+.NOMBRECLASE {proiedad: valor}
+*/
+.ingrediente-faltante {
+    color: red;
+}
+
+/*
+USO DE ID
+otra forma de llamar es haciendo el uso de los ids
+es un selector que se le da aun elemento en toda la pagina
+
+el id se llama con el simbolo de #
+
+el id es un identificador unico para cada elemento que se usa para javascript o css por buenas practicas debe ser diferente no puede ser como el class se puede pero no es correcto
+*/
+#ingrediente-secreto {
+    color: blue;
+}
+
