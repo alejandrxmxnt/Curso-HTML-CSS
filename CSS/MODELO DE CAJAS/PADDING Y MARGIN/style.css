@@ -1,0 +1,53 @@
+/*
+PARA DEFINIR UN FONDO LO HACEMOS CON EL 
+background y debemos definir un width y height
+
+width y height nos define el ancho y alto de los elementos
+*/
+
+div {
+    background: blue;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    border: black;
+    border-radius: 30px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    border: 10px;
+    border-radius: 30px;
+    margin: 5px;
+}
+ /*estamos dando un epacio entre el formualrio y la caja*/
+form {
+    padding: 30px;
+}
+/*
+form {
+    padding a todos los dados de forma resumida
+    padding: 10px 0 40px 20px;
+
+    padding forma larga no es etico
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 40px;
+    padding-left: 20px;
+
+    }*/
+
+.enviar {
+    background: gray;
+}
+
+/*
+PADDING es ese espacio que hay entre contenido y el borde de una caja - aumentar el tamaño alrededor del contenido pero adentro de los bordes
+*/
