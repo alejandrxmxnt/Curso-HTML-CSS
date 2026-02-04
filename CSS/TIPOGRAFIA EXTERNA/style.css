@@ -1,0 +1,11 @@
+/*
+TRAER DE AFUERA OTRA TIPOGRAFIA A NUESTROS SITIOS WEB
+existen 2 formas de sacar tipografia la priemra es
+1. escribir google fonts en el buscador y aho nos sale un listados de tipografias
+
+seleccionamos una tipografia y nos permitira vincular la letra con nuestra hoja de estilos
+*/
+
+p {
+    font-family: Poppins;
+}
