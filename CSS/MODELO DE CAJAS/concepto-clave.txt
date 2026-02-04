@@ -1,0 +1,10 @@
+/* En html todo se considera una caja en si caja rectangular donde todo esta ubicado en cajas
+una dentro de otra
+pero con el css podemos definir dimensiones cambian sus propiedades y demas como interactuan entre si
+
+width y height para el contenido 
+padding que es el relleno es el espacio del contenido y el borde del elemento o tag - separa el contenido del borde
+border que es el borde es una linea que rodea tanto al contenido como el padding puede modificar el estilo, grosor y el color del borde
+margin que es el marguen es el espacio alrededor de la caja fuera del borde - separa el elemento de otros elementos en la pagina a diferencia de los otros el margin no esta dentro la caja su funcion es serparar elementos o tag de otras cajas
+
+*/
