@@ -1,0 +1,59 @@
+/*
+BORDER
+3 ASPECTOS FUNDAMENTALES A MODIFICAR
+
+MODIFICAR TAMAÑO
+border-width    modificar el tamaño
+
+border-style nos permite modificar el borde borde lineas borde linea segmentada etc.
+
+border-color    modificar el color 
+
+Esos son los principales pero tambie tenemos los border-radius
+
+
+div {
+    background: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+}*/
+
+/*EXISTE UNA FORMA MAS RESUMIDA DE HACER ESTO SERIA*/
+div {
+    border: 5px solid black;
+}
+
+/*PRIMERO LA MEDIDA, EL COLOR Y EL ESTILO*/
+
+/*FORMA DE APLICAR A UN SOLO LADO
+div {
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-bottom-color: yellow;
+}
+RESUMIDA
+div {
+    border-top: 5px solid blue;
+}*/
+
+/*PERSONALIZAR LOS INPUTS*/
+body {
+    background-color: black;
+}
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    background: transparent;
+    border-left: 1px solid white;
+    color: greenyellow;
+}
