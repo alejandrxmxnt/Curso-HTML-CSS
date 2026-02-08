@@ -1,0 +1,16 @@
+body {
+    background-color: #0f0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #0006; /*El cuarto parametro del decimal es para controlar la opacidad que tiene*/
+    position: absolute;
+    top: 0;
+
+    /*
+    aplicar todo esto de background-color con opacidad nos sirve para cuando se agrega una venta sobre otra por ejemplo en la ventana de youtube cuando vamos a subir un archivo se despliega otra ventana encima pero la de atras se ve pero de forma opaca ahi puede aplicar
+    */
+}
