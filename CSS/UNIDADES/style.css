@@ -1,0 +1,39 @@
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+span {
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    color: #555
+}
+
+/*
+px es la medida de unidad mas pequeña que manejamos y la mas común
+lo usamos para definir los tamaños de algunos elementos como:
+alto y ancho de las imagenes tambien el tamaño de los textos tambien para los margenes y los paddings
+
+PERO
+
+si es para mandar a inprimir podemos hacer uso de los pt
+que son puntos el pc igual es una medida absoluta actualmente no se usa mucho.
+
+existen tambien los militros, centimetros y pulgadas 
+son medidas que en la vida tienen un significado
+cm para centimetros
+mm para milimetros
+in para pulgadas
+
+las medidas en porcentaje depende de otras es decir si tu defines 100px a un div y dentro de el podes otro div o lo que sea y lo defines con porcentaje este ocupara lo del porcentaje si tu le dices 50% este ocupa la mitad
+*/
