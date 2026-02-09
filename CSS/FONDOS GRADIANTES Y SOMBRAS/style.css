@@ -3,7 +3,7 @@ body {
 }
 
 .box {
-    width: 640px;
+    width: 440px;
     height: 440px;
     margin: 20px;
     background-color: #000;
@@ -17,4 +17,20 @@ body {
 
     background-image: url("https://www.vitakraft.com/fileadmin/_processed_/1/3/csm_el_origen_del_perro_3cc21c0da1.webp"); /* nos permite cargar una imagen
     la imagen que visualizamos mediante esto es un div no una imagen - solo que el fondo es una imagen*/
+    
+    
+    /*background-size: 100%; la imagen entra y se adapta a la medida establecida pero esta se puede duplicar triplicar y demas */
+    background-size: cover; /*contain obliga al contenedor a que la imagen entre
+    
+    si ponemos cover este se adapta al tamaño establecido en width y height aun que claro se puede cortarla imagen*/
+    background-position: center; /*puedo regular la imagen a que se centre esto apoya bastante al cover
+    
+    los puntos a definir tenemos 
+    top arriba
+    botton abajo
+    left izquierda
+    right derecha
+    center centro*/
+
+    background-repeat: no-repeat; /*esto es para que la imagen no se repita*/
 }
