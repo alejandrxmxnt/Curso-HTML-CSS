@@ -1,0 +1,5 @@
+Los select y datalist y que adentro tienen un mini elemento llamado los options
+
+SELECT es un campo de entrada que nos permite seleccionar una opcion de entre varias opciones
+
+DATALIST que escribimos algo y este se completa con opciones que nosotros definimos es una mezcla entre un input y un select
