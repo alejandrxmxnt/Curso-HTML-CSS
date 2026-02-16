@@ -1,0 +1,6 @@
+Se usan para agrupar y etiquetar lo que vienen a ser los elementos en un formulario
+
+
+Por ejemplo tenemos un formulario que pide datos de contacto entonces lo etiquetamos con un FILDSET y un LEGEND
+si tenemosalgun formulario sobre metodos de pago los agrupamos en un FILDSET y los etiquetamos con un LEGEND 
+ESTO ES PARA TENER TODO MAS ESTRUCTURADO
