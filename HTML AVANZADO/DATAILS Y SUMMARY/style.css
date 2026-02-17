@@ -1,0 +1,23 @@
+body {
+    background-color: #333;
+    color: #ddd;
+}
+
+details {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 9px;
+    font-size: 0.8em;
+}
+
+details [open] { /*A esto se lo conoce como dar un estilo deacuerdo a un estado*/
+    border: 1px solid #ddd;
+}
+
+summary {
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    padding: 9px;
+    font-size: 1em;
+    
+}
